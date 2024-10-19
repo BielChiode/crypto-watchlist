@@ -1,46 +1,103 @@
-# Getting Started with Create React App
+# Monitor de Preços de Criptomoedas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um aplicativo web para monitorar preços em tempo real de criptomoedas utilizando a API da Binance. O projeto permite aos usuários visualizar cotações de diferentes moedas em uma interface amigável e responsiva.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Material-UI**: Framework de componentes React para estilização e layout.
+- **TypeScript**: Superset de JavaScript que adiciona tipagem estática.
+- **WebSocket**: Para comunicação em tempo real com a API da Binance.
+- **Jest e React Testing Library**: Para testes unitários e de integração.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Monitoramento em tempo real de preços de criptomoedas.
+- Visualização de dados de preços, incluindo:
+  - Último preço
+  - Preço de venda (ask)
+  - Preço de compra (bid)
+  - Variação percentual
+- Interface amigável e responsiva, adaptada para dispositivos móveis.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Pré-requisitos
 
-### `npm test`
+Antes de começar, você precisará ter instalado em sua máquina:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
 
-### `npm run build`
+## Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navegue até o diretório do projeto:
 
-### `npm run eject`
+   ```bash
+   cd nome-do-repositorio
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Instale as dependências:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Inicie o servidor de desenvolvimento:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+5. Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Estrutura do Projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+/src
+  /components       # Componentes React reutilizáveis
+  /context          # Context API para gerenciamento de estado
+  /hooks            # Hooks personalizados
+  /pages            # Páginas da aplicação
+  /styles           # Estilos globais e tema
+  /tests            # Testes automatizados
+```
+
+## Testes
+
+Para executar os testes automatizados, utilize o seguinte comando:
+
+```bash
+npm test
+```
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um **issue** ou um **pull request**.
+
+1. Fork o repositório
+2. Crie uma nova branch para sua feature:
+   ```bash
+   git checkout -b minha-feature
+   ```
+3. Faça suas alterações e faça commit:
+   ```bash
+   git commit -m "Adicionando nova feature"
+   ```
+4. Envie suas alterações para o repositório remoto:
+   ```bash
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Para mais informações, entre em contato com [seu-email@dominio.com](mailto:seu-email@dominio.com).
