@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthXl css-hhdjsd-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-1jxwjqx-MuiGrid2-root"
+      data-testid="grid-container"
+    >
+      <div
+        class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-4 css-1o1ra37-MuiGrid2-root"
+        data-testid="symbol-list"
+      >
+        <div
+          class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-dzmwfx-MuiFormControl-root-MuiTextField-root"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1ue2cm2-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink="false"
+            for=":r0:"
+            id=":r0:-label"
+          >
+            Find Symbol
+          </label>
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-1mmy6ix-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-8a1qk4-MuiInputBase-input-MuiOutlinedInput-input"
+              id=":r0:"
+              type="text"
+              value=""
+            />
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-z53khj-MuiInputAdornment-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="SearchIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"
+                />
+              </svg>
+            </div>
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-12rqw02-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-81qg8w"
+              >
+                <span>
+                  Find Symbol
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-1utxjc3-MuiPaper-root"
+          style="--Paper-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.082), rgba(255, 255, 255, 0.082));"
+        >
+          <ul
+            class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+          >
+            <li
+              class="MuiListItem-root MuiListItem-gutters MuiListItem-padding css-cfd5wn-MuiListItem-root"
+            >
+              <label
+                class="MuiFormControlLabel-root Mui-disabled MuiFormControlLabel-labelPlacementEnd css-195ii7s-MuiFormControlLabel-root"
+              >
+                <span
+                  aria-disabled="true"
+                  class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-disabled PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium Mui-disabled MuiCheckbox-root MuiCheckbox-colorPrimary MuiCheckbox-sizeMedium css-w3qdgr-MuiButtonBase-root-MuiCheckbox-root"
+                  tabindex="-1"
+                >
+                  <input
+                    class="PrivateSwitchBase-input css-j8yymo"
+                    data-indeterminate="false"
+                    disabled=""
+                    type="checkbox"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                    data-testid="CheckBoxOutlineBlankIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label Mui-disabled css-mzpnxd-MuiTypography-root"
+                >
+                  No symbols found
+                </span>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <nav
+          aria-label="pagination navigation"
+          class="MuiPagination-root MuiPagination-text css-b7rscc-MuiPagination-root"
+        >
+          <ul
+            class="MuiPagination-ul css-1c5o7vy-MuiPagination-ul"
+          >
+            <li>
+              <button
+                aria-label="Go to previous page"
+                class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular Mui-disabled MuiPaginationItem-previousNext css-105ziyy-MuiButtonBase-root-MuiPaginationItem-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-8uzxat-MuiSvgIcon-root-MuiPaginationItem-icon"
+                  data-testid="NavigateBeforeIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Go to next page"
+                class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeMedium MuiPaginationItem-text MuiPaginationItem-circular Mui-disabled MuiPaginationItem-previousNext css-105ziyy-MuiButtonBase-root-MuiPaginationItem-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-8uzxat-MuiSvgIcon-root-MuiPaginationItem-icon"
+                  data-testid="NavigateNextIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-15qw1t0-MuiButtonBase-root-MuiButton-root"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          Add symbols
+          <span
+            class="MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-1vk8yuc-MuiButton-endIcon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+              data-testid="AddIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-md-8 css-8boly6-MuiGrid2-root"
+        data-testid="market-watch"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-1jiujal-MuiPaper-root-MuiTableContainer-root"
+          style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+        >
+          <div
+            aria-hidden="true"
+            class="MuiBackdrop-root css-1fhhvct-MuiBackdrop-root"
+            style="opacity: 0; webkit-transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+          >
+            <span
+              class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-120es8d-MuiCircularProgress-root"
+              data-testid="loading-spinner"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg css-54pwck-MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-960umw-MuiCircularProgress-circle"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="MuiBox-root css-1eokia"
+          >
+            No symbols available to display
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
