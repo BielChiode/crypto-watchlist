@@ -1,103 +1,103 @@
-# Monitor de Preços de Criptomoedas
+# Cryptocurrency Price Monitor
 
-Um aplicativo web para monitorar preços em tempo real de criptomoedas utilizando a API da Binance. O projeto permite aos usuários visualizar cotações de diferentes moedas em uma interface amigável e responsiva.
+A web application to monitor real-time cryptocurrency prices using the Binance API. The project allows users to view price quotes for different currencies in a user-friendly and responsive interface.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Material-UI**: Framework de componentes React para estilização e layout.
-- **TypeScript**: Superset de JavaScript que adiciona tipagem estática.
-- **WebSocket**: Para comunicação em tempo real com a API da Binance.
-- **Jest e React Testing Library**: Para testes unitários e de integração.
+- **React**: JavaScript library for building user interfaces.
+- **Material-UI**: React component framework for styling and layout.
+- **TypeScript**: JavaScript superset that adds static typing.
+- **WebSocket**: For real-time communication with the Binance API.
+- **Jest and React Testing Library**: For unit and integration testing.
 
-## Funcionalidades
+## Features
 
-- Monitoramento em tempo real de preços de criptomoedas.
-- Visualização de dados de preços, incluindo:
-  - Último preço
-  - Preço de venda (ask)
-  - Preço de compra (bid)
-  - Variação percentual
-- Interface amigável e responsiva, adaptada para dispositivos móveis.
+- Real-time monitoring of cryptocurrency prices.
+- Display of price data, including:
+  - Last price
+  - Ask price
+  - Bid price
+  - Percentage variation
+- User-friendly and responsive interface, adapted for mobile devices.
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de começar, você precisará ter instalado em sua máquina:
+Before starting, you need to have installed on your machine:
 
-- [Node.js](https://nodejs.org/) (versão 14 ou superior)
-- [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (usually installed with Node.js)
 
-## Instalação
+## Installation
 
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   ```
-
-2. Navegue até o diretório do projeto:
+1. Clone the repository:
 
    ```bash
-   cd nome-do-repositorio
+   git clone https://github.com/your-username/repository-name.git
    ```
 
-3. Instale as dependências:
+2. Navigate to the project directory:
+
+   ```bash
+   cd repository-name
+   ```
+
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Inicie o servidor de desenvolvimento:
+4. Start the development server:
 
    ```bash
    npm start
    ```
 
-5. Abra o navegador e acesse: [http://localhost:3000](http://localhost:3000)
+5. Open your browser and go to: [http://localhost:3000](http://localhost:3000)
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 /src
-  /components       # Componentes React reutilizáveis
-  /context          # Context API para gerenciamento de estado
-  /hooks            # Hooks personalizados
-  /pages            # Páginas da aplicação
-  /styles           # Estilos globais e tema
-  /tests            # Testes automatizados
+  /components       # Reusable React components
+  /context          # Context API for state management
+  /hooks            # Custom hooks
+  /pages            # Application pages
+  /styles           # Global styles and theme
+  /tests            # Automated tests
 ```
 
-## Testes
+## Testing
 
-Para executar os testes automatizados, utilize o seguinte comando:
+To run automated tests, use the following command:
 
 ```bash
 npm test
 ```
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um **issue** ou um **pull request**.
+Contributions are welcome! Feel free to open an **issue** or a **pull request**.
 
-1. Fork o repositório
-2. Crie uma nova branch para sua feature:
+1. Fork the repository
+2. Create a new branch for your feature:
    ```bash
-   git checkout -b minha-feature
+   git checkout -b my-feature
    ```
-3. Faça suas alterações e faça commit:
+3. Make your changes and commit:
    ```bash
-   git commit -m "Adicionando nova feature"
+   git commit -m "Adding new feature"
    ```
-4. Envie suas alterações para o repositório remoto:
+4. Push your changes to the remote repository:
    ```bash
-   git push origin minha-feature
+   git push origin my-feature
    ```
-5. Abra um Pull Request.
+5. Open a Pull Request.
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
-## Contato
+## Contact
 
-Para mais informações, entre em contato com [seu-email@dominio.com](mailto:seu-email@dominio.com).
+For more information, contact [your-email@domain.com](mailto:your-email@domain.com).
